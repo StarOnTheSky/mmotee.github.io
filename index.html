@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<!--居中标题-->
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0">
+    <title>ChuYvWithYouForever</title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="header">
+      <ul class="header__meta">
+      </ul>
+      <div class="container">
+        <div class="header__introduction">
+          <h1>一切都已经画上句点</h1>
+          <p>- By XY1801 初雨 -</p>
+          <div class="buttons">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <canvas class="header__background"></canvas>
+    </header>
+
+<!--背景特效（particles.js）-->
+
+    <script src="dist/particles.min.js"></script>
+    <script>
+      window.onload = function() {
+        Particles.init({
+          selector: '.header__background',
+          color: '#75A5B7',
+          maxParticles: 130,
+          connectParticles: true,
+          responsive: [
+            {
+              breakpoint: 768,
+              options: {
+                maxParticles: 80
+              }
+            }, {
+              breakpoint: 375,
+              options: {
+                maxParticles: 50
+              }
+            }
+          ]
+        });
+      };
+    </script>
+  </body>
+</html>
+
+<!--时间轴-->
+
+<link rel="stylesheet" href="style.css" />
+
+<!--
+  时间轴日历--格式
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-movie">此处：cd-movie为红色，cd-picture为绿色
+    </div>
+    <div class="cd-timeline-content">
+      <h2></h2>此处为标题
+      <p></p>此处为内容
+      <span class="cd-date"></span>此处为时间
+    </div>
+  </div>
+-->
+
+<!--LET'S START NOW!!!-->
+<!--
+<section id="cd-timeline" class="cd-container">
+  
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>奇怪了</h2>
+      <p>啊，怎么办怎么办怎么办，我可是个有底线的人，为什么我会下意识看向你的位置！？</p>
+      <span class="cd-date">2020-09-03-好平淡好平淡的一天</span>
+    </div>
+  </div>
+
+
+
+  </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>越来越奇怪了</h2>
+      <p>诶诶！？为什么她也在看我？为什么我又要和她对视？？？？？？</p>
+      <span class="cd-date">2020 - 09~10 -持续了一个月，真怪了</span>
+    </div>
+  </div>
+
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>这能忍？</h2>
+      <p>直接主动找她聊天冲冲冲</p>
+      <span class="cd-date">2020-09-15-九年级第一次月考前</span>
+    </div>
+  </div>
+
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>惊了！</h2>
+      <p>她主动和我表白了QwQ好激动怎么形容捏！！</p>
+      <span class="cd-date">2020-10-10-一个美好的周六</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>QwQ</h2>
+      <p>lai茶，是lai茶！</p>
+      <span class="cd-date">2020-10-11-心情非常QwQ</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>不会是假的吧！！？？</h2>
+      <p>“你睡糊涂了嘛？？”“才没有... ...你管我？”</p>
+      <span class="cd-date">2020-10-11-全天懵逼的周日</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>心情真好</h2>
+      <p>interesting</p>
+      <span class="cd-date">2020-10-11~10-24-你是第一个出现在我生命中的女孩</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+
+    </div>
+    <div class="cd-timeline-content">
+      <h2>我馋你下半“生”</h2>
+      <p>“晚安，宝贝”</p>
+      <span class="cd-date">2020-10-25-第一次被称呼得这么亲昵</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-movie">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>有点危险</h2>
+      <p>持续了10天的冷淡期</p>
+      <span class="cd-date">2020-10-25~11-03-好伤心，她不理我</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-movie">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>生气了！</h2>
+      <p>把你屏蔽了，抱歉</p>
+      <span class="cd-date">2020-11-03-这一天真的一夜没睡</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+
+    </div>
+    <div class="cd-timeline-content">
+      <h2>和好了！</h2>
+      <p>你终于憋不住主动找我啦！和你看电影互相喂零食的感觉真好呢</p>
+      <span class="cd-date">2020-11-04-心情慢慢好起来</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>我死了！</h2>
+      <p>要被你可爱死了！</p>
+      <span class="cd-date">2020-11-08-QAQ</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-movie">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>“挠头”</h2>
+      <p>你好像在躲闪我，是不是我多虑了？“你能不能不要这样发说说啊？不然我把你屏蔽了！”，，她应该不是讨厌我吧，可能是想让我保守一点！？（企图安慰自己）</p>
+      <span class="cd-date">2020-11-09-emmmm...</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>“你这人咋这么奇怪”</h2>
+      <p>为什么你又不躲我了！？搂着你的脑袋呼呼呼~，嘶~我总要摸清你~深入了解你~</p>
+      <span class="cd-date">2020-11-09-晚-你这人我摸不清qwq</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>第一次翘课</h2>
+      <p>翘课给你买奶茶</p>
+      <span class="cd-date">2020-11-15-翘课真好，下次还翘</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-movie">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>开始还是结束？</h2>
+      <p>“我删你了啊”“我没意见”？？？？？？？？？XD原来你一点都不在乎</p>
+      <span class="cd-date">2020-11-18-你走了我怎么办</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>第一次世界大战</h2>
+      <p>心情复杂</p>
+      <span class="cd-date">2020-11-23-QwQ</span>
+    </div>
+  </div>
+
+    </div>
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+    </div>
+    <div class="cd-timeline-content">
+      <h2>圣诞快乐</h2>
+      <p>宝贝圣诞快洛</p>
+      <span class="cd-date">2020-12-25-Merry Christmas</span>
+    </div>
+  </div>
+-->
+</section>
+
+<!--页脚-->
+<body>
+<h2 class="top_title">-In the end-<br/><h2>
+  <link rel="stylesheet" href="style.css" />
+<style type="text/css">
+h2.top_title{border-bottom:none;background:none;text-align:center;line-height:32px; font-size:20px}
+h2.top_title span{font-size:12px; color:#666;font-weight:500}
+</style>
+</head>
+<!--源码修改自互联网，仅作为个人页面使用，非商业用途，若侵犯您的合法权益，请及时联系我删除页面-->
+
+<!--Gitalk评论系统-->
+  
+<link rel="stylesheet" href="dist/gitalk.css">
+      <div id="gitalk-container"></div>
+    </div>
+    <script src="dist/gitalk.min.js"></script>
+    <script>
+      var gitalk = new Gitalk({
+        clientID: '8a12b95b2fcddfed984e',
+        clientSecret: '613f23e347cbe6eee7db81490c601636a7a71402',
+        repo: 'ChuYvWithYou.github.io',
+        owner: 'ChuYvWithYou',
+        admin: ['ChuYvWithYou'],
+        id: 'location.pathname',
+        distractionFreeMode: true
+      });
+      gitalk.render('gitalk-container');
+    </script>
